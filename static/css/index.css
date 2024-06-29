@@ -1,4 +1,4 @@
-/**{
+{
     padding: 0;
     margin: 0;
     text-decoration: none;
@@ -38,6 +38,7 @@ nav{
 }
 nav ul{
     margin-right: 90px;
+
 }
 nav ul li{
     display : inline-block;
@@ -45,13 +46,17 @@ nav ul li{
 }
 
 nav ul li a:hover{
-    color: black;
+    color: #2f7eb2;
+    background:#fff;
     transition: 0.3s;
+    border-radius:20px
 }
 nav ul li a{
-    color:#431717;
+    color:white;
     font-size: 20px;
     transition: 0.3s;
+    text-decoration:none;
+    padding: 10px 20px;
 }
 .signup-signin .icon-bar{
     background-color: #FFFFFF;
@@ -63,4 +68,3 @@ nav ul li a{
     border-radius: 1px;
     cursor: pointer;
 }
-*/

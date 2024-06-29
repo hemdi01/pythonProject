@@ -4,7 +4,7 @@
     left: 87px;
     width: 85%;
     height: 60px;
-    background-color: #4cc9f0;
+    background-color: #fff;
 }
 #mon_select{
     position: absolute;
@@ -93,16 +93,28 @@ text-align: center;
     border-right: solid  black 1px;
 }
 .projects .tables tr:hover td{
-    background-color: rgb(180, 254, 255);
+    background-color: gray;
+    color:white;
+    background:#2f7eb2
 }
+
 #csv{
-    position: absolute;
-    top: 120px;
-    right: 60px;
-    background-color: #ccc;
-    color: red;
+   position: absolute;
+    top: 160px;
+    right: 0px;
+    background-color: #2f7eb2;
+    color: white;
+    border-radius: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid #2f7eb2
 }
+
 #csv:hover{
-    background-color: #999;
-    color: #fff;
+    background-color: white;
+    color: #2f7eb2;
+}
+
+.DIV tr{
+    height:80px
 }
